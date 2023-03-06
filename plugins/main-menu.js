@@ -28,17 +28,12 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-◈ ━━━━━ *DyLux  ┃ ᴮᴼᵀ* ━━━━━ ◈
+◈ ━━━━━ *PENE  ┃ BOT* ━━━━━ ◈
  
 👋🏻 _Hola_ *%name*
 🧿 Nivel : *%level* 
 👥 Usuarios : %totalreg
 📈 Tiempo activo : %muptime
-─────────────
-▢ Crea tu propio bot 
-• https://youtu.be/xFqjKN1Qt80
-▢ Descarga *FGWhatsApp*
-• https://fgmods.epizy.com
 ─────────────
 %readmore
 Ⓟ = Premium
@@ -151,15 +146,9 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     
     let pp = './src/fg_logo.jpg'
     
-     /*conn.sendHydrated2(m.chat, text.trim(), '▢ DyLux  ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98_ff', pp, fgyt, 'YouTube', 'https://paypal.me/fg98f', 'PayPal', [
-      ['ꨄ︎ Apoyar', `${_p}donate`],
-      ['⏍ Info', `${_p}botinfo`],
-      ['⌬ Grupos', `${_p}gpdylux`]
+     /*conn.sendHydrated2(m.chat, text.trim(), '▢ PENE  ┃ BOT\n▢ Sígueme en Instagram\nhttps://www.instagram.com/666zeta',[
     ], m)*/  
-    conn.sendButton(m.chat, text.trim(), '▢ DyLux  ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98_ff', pp, [
-      ['ꨄ︎ Apoyar', `${_p}donate`],
-      ['⏍ Info', `${_p}botinfo`],
-      ['⌬ Grupos', `${_p}gpdylux`]
+    conn.sendButton(m.chat, text.trim(), '▢ PENE  ┃ BOT\n▢ Sígueme en Instagram\nhttps://www.instagram.com/666zeta', pp, [
     ],m, rpl)
   
     m.react('📚') 

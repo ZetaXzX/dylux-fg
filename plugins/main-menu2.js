@@ -6,9 +6,6 @@ let handler = async function (m, { conn, text, usedPrefix }) {
 let m2 = `
 ≡ _Use estos comandos sin el prefijo_
 
-▢ Si tienes más  audios   
-envíame por t.me/fgsupp_bot el *audio + comando* con en el que responderá
-
 ┌─⊷ *AUDIOS* 
 ▢ Bot
 ▢ Buenos días
@@ -20,7 +17,6 @@ envíame por t.me/fgsupp_bot el *audio + comando* con en el que responderá
     let pp = './src/fg_logo.jpg' 
     conn.sendButton(m.chat, m2, fgig, pp, [
       ['⏍ Info', `${usedPrefix}botinfo`],
-      ['⌬ Grupos', `${usedPrefix}gpdylux`]
     ],m, rpyt)
    
 }

@@ -28,17 +28,12 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-◈ ━━━━━ *DyLux  ┃ ᴮᴼᵀ* ━━━━━ ◈
+◈ ━━━━━ *PENE  ┃ ᴮBOT* ━━━━━ ◈
  
 👋🏻 _Hola_ *%name*
 🧿 Nivel : *%level* 
 👥 Usuarios : %totalreg
 📈 Tiempo activo : %muptime
-─────────────
-▢ Crea tu propio bot 
-• https://youtu.be/xFqjKN1Qt80
-▢ Descarga *FGWhatsApp*
-• https://fgmods.epizy.com
 ─────────────
 %readmore
 Ⓟ = Premium
@@ -156,11 +151,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
       ['⏍ Info', `${_p}botinfo`],
       ['⌬ Grupos', `${_p}gpdylux`]
     ], m)*/  
-    conn.sendButton(m.chat, text.trim(), '▢ DyLux  ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98_ff', pp, [
-      ['ꨄ︎ Apoyar', `${_p}donate`],
-      ['⏍ Info', `${_p}botinfo`],
-      ['⌬ Grupos', `${_p}gpdylux`]
-    ],m, rpl)
+    conn.sendButton(m.chat, text.trim(), '▢ PENE  ┃ BOT \n▢ Sígueme en Instagram\nhttps://www.instagram.com/666zeta', pp, [ ],m, rpl)
   
     m.react('📚') 
     
